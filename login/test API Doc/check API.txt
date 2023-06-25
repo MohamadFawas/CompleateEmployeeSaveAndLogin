@@ -1,0 +1,31 @@
+POST  	localhost:8082/pi/v/employee123/save
+
+	Request
+{
+    "employeename": "fawas",
+    "email1": "fawas@gmail.com",
+    "password1": "123456"
+
+}
+
+	Response
+
+successfully data added
+
+= = = = = = = = =  == == =  = = == =   = ========                ===================  >
+
+POST  	localhost:8082/pi/v/employee123/login
+
+
+		Request
+{
+    "email1": "fawas@gmail.com",
+    "password1": "123456"
+
+}
+
+		Response
+{
+    "message": "Login Success",
+    "status": true
+}
